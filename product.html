@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Product Details</h1>
+          </div>
+          <div class="panel-body">
+            <form action="product.php" method="post">
+                <div class="form-group">
+                    <label for="Product_id">Product ID</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="Product_id"
+                      name="Product_id"
+                    />
+                  </div>
+              <div class="form-group">
+                <label for="Type">Type</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Type"
+                  name="Type"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Color">Color</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Color"
+                  name="Color"
+                />
+              </div>
+              <div class="form-group">
+                <label for="P_Size">Product Size</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="P_Size"
+                  name="P_Size"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Gender">Gender</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Gender"
+                  name="Gender"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Commission">Commission</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="Commission"
+                  name="Commission"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Cost">Cost</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="Cost"
+                  name="Cost"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Quantity">Quantity</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="Quantity"
+                  name="Quantity"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Seller_id">Seller ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Seller_id"
+                  name="Seller_id"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
